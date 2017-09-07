@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="two-fer" project="two-fer" tests="4" started="4" failures="0" errors="0" ignored="3">
+  <testsuite name="TwoferTest" time="0.0">
+    <testcase name="noNameGiven" classname="TwoferTest" time="0.0"/>
+    <testcase name="emptyStringGiven" classname="TwoferTest" time="0.0" ignored="true"/>
+    <testcase name="aNameGiven" classname="TwoferTest" time="0.0" ignored="true"/>
+    <testcase name="anotherNameGiven" classname="TwoferTest" time="0.0" ignored="true"/>
+  </testsuite>
+</testrun>
