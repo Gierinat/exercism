@@ -8,8 +8,13 @@ class RnaTranscription {
         	c = c == 'G' ? 'C' : 
         		c == 'C' ? 'G' :
         		c == 'T' ? 'A' :	
-        		c == 'A' ? 'U' : 'X';
-        	strb = strb.append(c);
+        		c == 'A' ? 'U' : 'E';
+        	if (c == 'E') {
+        		throw new IllegalArgumentException("Invalid input");
+        	} else {
+        		strb = strb.append(c);
+        	}
+        	
         }
         
         return strb.toString();
