@@ -3,6 +3,7 @@
 .metadata
 RemoteSystemsTempFiles/
 .recommenders
+.settings
 
 # Ignore Gradle GUI config
 gradle-app.setting

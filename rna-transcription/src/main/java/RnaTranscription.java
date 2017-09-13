@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 class RnaTranscription {
 
     String transcribe(String dnaStrand) {
@@ -20,6 +23,25 @@ class RnaTranscription {
         return strb.toString();
         
         
+//        String[] letters = {"A","T","G"};
+//       return Arrays.stream(letters).map(this::translate).collect(Collectors.joining(","));
+        
+        
     }
+    
+//    private String translate(String s) {
+//        switch (s) {
+//            case "C":
+//                return "G";
+//            case "T":
+//                return "A";
+//            case "A":
+//                return "U";
+//            case "G":
+//                return "C";
+//            default:
+//                throw new IllegalArgumentException("Invalid input");
+//        }
+//    }
 
 }
